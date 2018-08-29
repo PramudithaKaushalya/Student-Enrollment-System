@@ -119,7 +119,8 @@ public class Login extends javax.swing.JFrame {
                 object.setVisible(true);
             }
             else{
-                JOptionPane.showMessageDialog(null, "User Name or Passsword is INVALID!!!");
+                JOptionPane.showMessageDialog(null, "User Name or Passsword is INVALID!!");
+                
             }
         }
         catch(HeadlessException | SQLException e){
